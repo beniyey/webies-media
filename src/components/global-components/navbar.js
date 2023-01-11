@@ -17,7 +17,7 @@ class Navbar extends Component {
 					<div className="container-fluid">
 						<div className="main-nav__logo-box">
 							<Link to="/">
-								<img alt="an image of a shape" src={publicUrl + "assets/images/resources/logo.png"} width="200px" />
+								<img alt="a shape" src={publicUrl + "assets/images/resources/logo.png"} width="200px" />
 							</Link>
 							<a href="/" className="side-menu__toggler"><i className="fa fa-bars" /></a>
 						</div>{/* /.main-nav__logo-box */}
